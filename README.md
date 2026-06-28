@@ -73,6 +73,13 @@ Worked on loading messy data files into Spark, fixing string type issues, and ru
   * Changed the data configurations (`spark.sql.ansi.enabled` to `false`) to smoothly handle text lines sitting inside numeric columns without crashing.
   * Converted the `Sales` column data type to double and ran group summaries to find average sales per Category and total revenue per Region.
 
+### 6. [Week 6: Spark Architecture & Data Processing](./Week-6/)
+Worked on building a complete PySpark data processing pipeline by loading retail data, applying transformations, handling missing values, and saving processed output in different file formats.
+
+* **Key Steps:**
+  * Loaded the dataset with proper schema inference, selected required columns, and renamed columns for better readability.
+  * Casted numeric data types, created a new `TotalPrice` column, removed null values, and filtered records using multiple conditions.
+  * Saved the processed dataset in both CSV and Parquet formats while using Spark actions like `.show()` and `.count()` for efficient execution.
 ---
 
 ## 📌 How to Navigate
