@@ -1,8 +1,7 @@
 # Week 6 - Spark Architecture & Data Processing
 
-**Name:** Gaurav
+**Name:** Gourav Singh
 **Domain:** Data Engineering
-**Internship:** Celebal Technologies Internship 2026
 
 ## Objective
 
@@ -16,7 +15,7 @@ This assignment uses the **Online Retail Dataset**.
 
 The dataset is publicly available and can be downloaded from:
 
-**https://archive.ics.uci.edu/ml/datasets/online+retail**
+**(https://www.kaggle.com/datasets/vijayuv/onlineretail?resource=download)**
 
 > **Note:** The original dataset has not been included in this repository because it exceeds GitHub's web upload size limit. 
 
