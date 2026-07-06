@@ -5,7 +5,7 @@ This folder contains my Week 7 Delta Lake assignment. The assignment focuses on 
 ## Folder Structure
 
 - **data/** - Contains the input datasets (`customer_master.csv` and `customer_incremental.csv`).
-- **notebooks/** - Contains the implementation notebook (`delta_scd_assignment.ipynb`).
+- **notebooks/** - Contains the implementation notebook (`delta_lake_assignment.ipynb`).
 - **screenshots/** - Includes screenshots of each major step such as data loading, cleaning, Delta table creation, MERGE operation, validation, and final output.
 
 ## Steps I Followed in the Notebook
