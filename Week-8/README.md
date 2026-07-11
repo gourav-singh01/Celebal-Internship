@@ -184,12 +184,3 @@ Sample report screenshots are available inside:
 output/sample_reports/
 ```
 
----
-
-## Author
-
-**Gourav Singh**
-
-Celebal Technologies Internship Program
-
-Week 8 Assignment
