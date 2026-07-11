@@ -18,11 +18,11 @@ This repository contains all the assignments and practical work completed during
 ## 🛠️ Technology Stack
 
 - **Languages:** Python, SQL
-- **Libraries & Frameworks:** Pandas, NumPy, Apache Spark (PySpark), Delta Lake
+- **Libraries & Frameworks:** Pandas, NumPy, Faker, Apache Spark (PySpark), Delta Lake, Tabulate
 - **Databases:** SQLite3
 - **Cloud Platform:** Microsoft Azure
 - **Data Integration:** Azure Data Factory (ADF V2)
-- **Development Environment:** Google Colab
+- **Development Environment:** Google Colab, Visual Studio Code
 
 ---
 
@@ -37,6 +37,7 @@ This repository contains all the assignments and practical work completed during
 | ⚡ **[Week 5: Apache Spark Fundamentals](./spark-assignment/)** | Data cleaning, transformations, and aggregations using Spark. | PySpark, Google Colab | ✅ Completed |
 | 🔄 **[Week 6: Spark Architecture & Data Processing](./Week-6/)** | Spark DataFrames, transformations, filtering, and exporting processed data. | PySpark, Google Colab | ✅ Completed |
 | 🪣 **[Week 7: Delta Lake Incremental Processing](./Week-7/)** | Delta tables, incremental processing, MERGE operation, and validation. | PySpark, Delta Lake | ✅ Completed |
+| 🛒 **[Week 8: E-Commerce Analytics System](./Week-8/)** | End-to-end e-commerce analytics using Python, SQL, SQLite, and CLI reporting. | Python, Pandas, SQLite, SQL | ✅ Completed |
 
 ---
 
@@ -130,6 +131,22 @@ Implemented incremental data processing using Delta Lake with customer datasets.
 
 ---
 
+---
+
+## 8. [Week 8: E-Commerce Analytics System](./Week-8/)
+
+Designed and developed an end-to-end e-commerce analytics system by generating synthetic datasets, cleaning them using Pandas, storing the processed data in SQLite, and performing SQL-based business analysis. A simple command-line reporting tool was also created to generate different analytical reports.
+
+**Key Steps**
+
+- Generated realistic e-commerce datasets using **Faker** and Python.
+- Introduced and cleaned inconsistencies such as duplicate records, missing values, invalid dates, and mismatched IDs.
+- Created a relational SQLite database with primary and foreign key constraints.
+- Performed SQL analytics using JOINs, aggregations, window functions, and CTEs.
+- Implemented customer segmentation and basic cohort analysis.
+- Built a Python CLI tool to generate revenue, product, customer, and segmentation reports.
+---
+
 # 📌 How to Navigate
 
-Each week's assignment is organized in its own folder. Use the **Repository Index** above to directly access any week's work. Every folder contains its notebook, datasets, outputs/screenshots (if required), and a README describing the implementation and learning outcomes.
+Each week's assignment is organized in its own folder. Use the **Repository Index** above to directly access any week's work. Every folder contains the source code, datasets, outputs, screenshots (where applicable), and a README describing the implementation, workflow, and key learning outcomes.
