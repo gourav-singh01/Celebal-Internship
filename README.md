@@ -11,7 +11,7 @@ This repository tracks my progress, code files, and assignments completed during
 
 ## 💡 About This Workspace
 
-This repository contains all the assignments and practical work completed during my internship. Throughout these weekly tasks, I explored different areas of Data Engineering including data cleaning with Pandas, SQL database design, Azure cloud services, Apache Spark, and Delta Lake. Each week's folder includes the notebook, required datasets, outputs, screenshots (where applicable), and a README explaining the implementation.
+This repository contains all the assignments, practical work, and the final project completed during my internship. Throughout these weekly tasks, I explored different areas of Data Engineering including data cleaning with Pandas, SQL database design, Azure cloud services, Apache Spark, Delta Lake, and Databricks. The internship concludes with an end-to-end Healthcare Data Pipeline project implementing the Medallion Architecture (Bronze, Silver, and Gold layers). Each folder includes the notebook, required datasets, outputs, screenshots (where applicable), and a README explaining the implementation.
 
 ---
 
@@ -22,7 +22,8 @@ This repository contains all the assignments and practical work completed during
 - **Databases:** SQLite3
 - **Cloud Platform:** Microsoft Azure
 - **Data Integration:** Azure Data Factory (ADF V2)
-- **Development Environment:** Google Colab, Visual Studio Code
+- **Development Environment:** Google Colab, Databricks Community Edition, Visual Studio Code
+- **Architecture:** Medallion Architecture (Bronze, Silver, Gold)
 
 ---
 
@@ -38,6 +39,7 @@ This repository contains all the assignments and practical work completed during
 | 🔄 **[Week 6: Spark Architecture & Data Processing](./Week-6/)** | Spark DataFrames, transformations, filtering, and exporting processed data. | PySpark, Google Colab | ✅ Completed |
 | 🪣 **[Week 7: Delta Lake Incremental Processing](./Week-7/)** | Delta tables, incremental processing, MERGE operation, and validation. | PySpark, Delta Lake | ✅ Completed |
 | 🛒 **[Week 8: E-Commerce Analytics System](./Week-8/)** | End-to-end e-commerce analytics using Python, SQL, SQLite, and CLI reporting. | Python, Pandas, SQLite, SQL | ✅ Completed |
+| 🏥 **[Final Project: Healthcare Data Pipeline](./Healthcare_Data_Pipeline/)** | End-to-end healthcare data pipeline using Medallion Architecture with Bronze, Silver, and Gold layers, PySpark SQL analysis, and Databricks visualizations. | PySpark, Spark SQL, Databricks, Python | ✅ Completed |
 
 ---
 
@@ -145,6 +147,21 @@ Designed and developed an end-to-end e-commerce analytics system by generating s
 - Performed SQL analytics using JOINs, aggregations, window functions, and CTEs.
 - Implemented customer segmentation and basic cohort analysis.
 - Built a Python CLI tool to generate revenue, product, customer, and segmentation reports.
+---
+---
+
+## 9. [Final Project: Healthcare Data Pipeline](./Healthcare_Data_Pipeline/)
+
+Designed and implemented an end-to-end healthcare data pipeline following the Medallion Architecture. The project processes raw healthcare records through Bronze, Silver, and Gold layers to produce clean, business-ready datasets for reporting and analytics. SQL analysis and visualizations were also created using Databricks.
+
+**Key Steps**
+
+- Loaded raw healthcare data into the Bronze layer.
+- Cleaned and standardized records in the Silver layer by removing duplicates, formatting dates, and renaming columns.
+- Generated business summary tables in the Gold layer using PySpark aggregations.
+- Performed Spark SQL analysis for hospitals, billing, medical conditions, gender, and admission types.
+- Created visualizations in Databricks to present business insights.
+
 ---
 
 # 📌 How to Navigate
